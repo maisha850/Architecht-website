@@ -25,7 +25,10 @@ color: rgb(19, 19, 19);
   border-radius: 8px;
   margin-top: 32px;
 }
-  
+  /* main{
+    max-width: 100%;
+    margin: 0 auto;
+  } */
 
 
   /* header */
@@ -84,4 +87,106 @@ color: rgb(19, 19, 19);
     margin: auto;
     margin-top: 50px;
     
+    
   }
+
+  .teamImg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
+    
+  }
+  .fdes{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .quick{
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+  }
+  span{
+    color:rgb(255, 144, 14) ;
+  }
+  .team{
+    display:flex;
+    gap: 76px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 76px;
+  }
+  
+  @media screen and (max-width:576px){
+    .nav, .nav-item,.team{
+      display: flex;
+      flex-direction: column;
+    }
+    .banner-img{
+      width: 100%;
+    }
+    
+  }
+
+  .line{
+    width: 5px;
+    height: 106px;
+    background-color: rgb(255, 144, 14);
+    border-radius: 2px;
+    
+  }
+  .features{
+    display: flex;
+    
+    align-items: center;
+    gap:16px;
+  }
+  .destop{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .container{
+    border-radius: 8px;
+    
+
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+width: 586px;
+height: 151px;
+padding: 30px;
+margin-bottom: 20px;
+
+  }
+  .rectangle{
+    width: 708px;
+    height: 982px;
+  }
+  .box{
+    display: flex;
+    gap: 92px;
+    align-items: center;
+   
+    justify-content: center;
+    margin-top: 130px;
+  }
+  .experience-badge{
+    width: 342px;
+    height: 200px;
+   
+    border-radius: 8px;
+    background-color: rgb(255, 144, 14);
+    border: none;
+    margin-left: -92px;
+    margin-top: -100px;
+    
+  }
+  .ex-year{
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    
+  }
+  .experience{
+    font-size: 25px;
+    font-weight:500 ;
+    color: white;
+  } 
